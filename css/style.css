@@ -1,0 +1,19 @@
+.bg-header {
+    background-color: #29BE77
+}
+
+.btn-lg.round {
+    border-radius: 24px
+}
+
+.carakerja {
+    position: relative;
+    background-color: #59bebd;
+    /* background: url("../img/bg-mashead.jpg") no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+}
