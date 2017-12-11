@@ -17,3 +17,32 @@
     padding-top: 8rem;
     padding-bottom: 8rem; 
 }
+
+.statistik {
+    position: relative;
+    background-color: #ffffff;
+    /* background: url("../img/bg-mashead.jpg") no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+}
+
+.berita {
+    position: relative;
+    background-color: #ffffff;
+    /* background: url("../img/bg-mashead.jpg") no-repeat center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem; 
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: transparent;
+  }

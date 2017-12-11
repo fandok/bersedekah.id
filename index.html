@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-header static-top">
       <div class="container">
-        <div class="col-sm-4 ">
+        <div class="col-sm-4">
           <p class="">_________________</p>
         </div>
         <div class="col-sm-4">
@@ -42,11 +42,35 @@
       </div>
       <div class="container">
         <div class="col-sm-4">
-          <p>Tentang kami | Program | Relawan</p>
+            <div class="row">
+              <div class="col-sm-4">
+                <button type="button" class="btn btn-primary-outline dropdown-toggle" data-toggle="dropdown">
+                  Tentang kami <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Visi</a></li>
+                    <li><a href="#">Misi</a></li>
+                    <li><a href="#">Manajemen</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <button type="button" class="btn btn-primary-outline dropdown-toggle" data-toggle="dropdown">
+                    Program <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Ekonomi</a></li>
+                  <li><a href="#">Pendidikan</a></li>
+                  <li><a href="#">Kesehatan</a></li>
+                  <li><a href="#">Masyarakat</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <button type="button" class="btn btn-primary-outline">Relawan</button>
+              </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-
-        </div>
+        
+        <div class="col-sm-4"></div>
         <div class="col-sm-4">
             <button type="button" class="btn btn-outline-light btn-lg round">Bersedekah</button>
             <button type="button" class="btn btn-outline-light btn-lg round">Berwakaf</button>
@@ -79,8 +103,21 @@
     </header>
 
     <section class="carakerja">
-      <div class="container"></div>
+      <div class="container">CARA KERJA KAMI</div>
     </section>
+
+    <section class="statistik">
+      <div class="container">STATISTIK</div>
+    </section>
+
+    <hr>
+    <p class="text-center">Berita terkini</p>
+    <hr>
+
+    <section class="berita">
+      
+    </section>
+
 
     <!-- Icons Grid -->
     <!-- ? -->
@@ -168,7 +205,7 @@
     </section> -->
 
     <!-- Footer -->
-    <!-- <footer class="footer bg-light">
+    <footer class="footer bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -212,7 +249,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
