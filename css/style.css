@@ -14,7 +14,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 8rem;
+    padding-top: 1rem;
     padding-bottom: 8rem; 
 }
 
@@ -26,7 +26,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 8rem;
+    padding-top: 1rem;
     padding-bottom: 8rem; 
 }
 
@@ -38,8 +38,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem; 
+    padding-top: 1rem;
 }
 
 .btn-primary-outline {
@@ -47,6 +46,15 @@
     border-color: transparent;
   }
 
-ul.green {
+.green {
     color:#29BE77
+}
+
+.white {
+    color: white
+}
+
+p.footer {
+    position: relative;
+    top: 9rem;
 }
